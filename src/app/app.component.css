@@ -1,0 +1,17 @@
+body{
+}
+#wrapper{
+  margin:auto;
+  width: 80%;
+  max-width: 850px;
+}
+th,td{
+  width: 100px;
+  height: 60px;
+}
+td{
+  border: 1px solid;
+}
+#date th{
+  text-align: center;
+}
