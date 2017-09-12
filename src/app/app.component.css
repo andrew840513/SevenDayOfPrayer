@@ -1,17 +1,5 @@
-body{
-}
-#wrapper{
-  margin:auto;
-  width: 80%;
-  max-width: 850px;
-}
-th,td{
-  width: 100px;
-  height: 60px;
-}
-td{
-  border: 1px solid;
-}
-#date th{
-  text-align: center;
+.banner{
+    background-color: #11233b;
+    color: white;
+    padding: 10px 20px;
 }

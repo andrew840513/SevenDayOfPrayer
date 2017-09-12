@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@font-face{
+  font-family: ABeeZee;
+  src: url(https://fonts.gstatic.com/s/abeezee/v10/TV7JXr7j4tW7mgYreANhGQ.woff2);
+}
+
+article, aside, footer, header, main, nav, section{
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section{
+  padding: 0;
+  margin: 0;
+}
+
+.banner{
+  background-color: #11233b;
+  color: white;
+  padding: 10px 20px;
+}
+
+p{
+  font-size: 25px;
+}
+
+body{
+  background-color: antiquewhite;
+  font-family: "Agency FB";
+  font-size: 18px;
+}
+main{
+  width: 90%;
+  margin: auto;
+}
+section{
+  background-color: gray;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+article{
+  background-color: white;
+  margin-top: 5px;
+  padding: 10px 15px;
+}
+
+footer{
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer a{
+  display: block;
+  width: 130px;
+  height: 40px;
+  color: black;
+  font-size: 25px;
+  font-family: 'ABeeZee';
+  text-decoration: none;
+  background-color: pink;
+  border: solid black;
+  border-width: 5px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+footer a:hover{
+  background-color: azure;
+}
+#wrapper{
+  margin:auto;
+  width: 80%;
+  max-width: 850px;
+}
+iframe{
+  width: 49%;
+}
+th,td{
+  width: 100px;
+  height: 30px;
+}
+td{
+  border: 1px solid;
+}
+#date th{
+  text-align: center;
+}
+
+a{
+  color: #000000;
+}
+#signup{
+  display: block;
+  width: 300px;
+  margin:auto;
+  padding-top: 20px;
+}
+#signup a{
+  display: inline;
+}
+#signup a:first-child{
+  float: left;
+}
+#signup a:last-child{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+
+a.text:hover{
+  color: cornflowerblue;
+}
